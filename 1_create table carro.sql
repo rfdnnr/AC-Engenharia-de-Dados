@@ -6,5 +6,5 @@ create table carro(
 	marca varchar(45) not null,
 	modelo varchar(45) not null,
 	fk_seguradora int,
-	fk_categoria int not null unique
+	fk_categoria int not null
 );

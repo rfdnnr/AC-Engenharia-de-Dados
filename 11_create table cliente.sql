@@ -1,5 +1,5 @@
 create table cliente(
-	cliente_id int primary key,
+	cliente_id serial primary key,
 	telefone varchar(45) not null,
 	email varchar(45) not null,
 	nome varchar(45) not null,
